@@ -1,0 +1,126 @@
+.modal{
+    text-align: center;
+    display: none;
+    position: fixed; /* Фіксуємо модальне вікно на екрані */
+    z-index: 1000;   /* Піднімаємо над іншими елементами */
+    left: 50%;       /* Відцентровуємо по горизонталі */
+    top: 50%;        /* Відцентровуємо по вертикалі */
+    transform: translate(-50%, -50%); /* Зсуваємо на половину ширини і висоти для ідеального центрування */
+    width: 80%;      /* Ширина вікна */
+    height: auto;    /* Висота автоматична */
+    max-width: 500px; /* Максимальна ширина */
+    background-color: rgb(89, 127, 114, 0.4); /* Колір фону */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Тінь для ефекту */
+    border-radius: 15px;
+}
+
+.modal-content{
+    background-color: aquamarine;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+
+#modal-content-platinum{
+    background-color: bisque;
+    border-radius: 15px;
+}
+#modal-content-bronze{
+    background-color: rgb(255, 208, 0);
+    border-radius: 15px;
+}
+
+.close{
+    color:  #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#promoTextPlatinum{
+    color: rgb(240, 222, 179);
+    background-color: rgb(70, 55, 55);
+    border: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+#promoTextBronze{
+    color: rgb(255, 179, 0);
+    background-color: rgb(70, 55, 55);
+    border: 5px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+#promoTextBronze:hover{
+    color: rgb(216, 161, 32);
+    cursor: crosshair;
+    border-radius: 18px;
+    border: 8px;
+    border-color: aqua;
+}
+
+#promoTextPlatinum:hover{
+    color: rgb(203, 186, 147);
+    cursor: crosshair;
+    border-radius: 18px;
+    border: 8px;
+    border-color: blue;
+}
+
+
+#p11234{
+    font-size: large;
+    color: rgb(50, 92, 50);
+    background-color: rgb(138, 133, 133);
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+    padding: 5px 5px;
+    border-color: blue;
+}
+#p3456{
+    background-color: rgb(166, 66, 66);
+    border-radius: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1px 1px;
+}
+
+#p44567{
+    font-size: large;
+    color: rgb(50, 92, 50);
+    background-color: rgb(214, 203, 161);
+    border-radius: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline;
+    padding: 5px 5px;
+    border-color: blue;
+}
+
+
+#p6789{
+    background-color: rgb(188, 140, 140);
+    border-radius: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1px 1px;
+}
+
+
+#btnPlatinum,
+#btnBronze{
+    color: blue;
+    text-align: center;
+    background-color: yellow;
+}

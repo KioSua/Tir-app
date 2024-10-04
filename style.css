@@ -1,0 +1,120 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*background-color: #512e2e;*/
+    background: linear-gradient(45deg, #452c46,#343432,#3b4747);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+header {
+    /*background-color: #333;*/
+    /*background-image: url(./font_site.avif);*/
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 100px auto;
+    background-color: rgb(133, 133, 133);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#grafikAll{
+    background: radial-gradient(30deg,#333,#84ff00,#ff0059);
+    
+}
+
+h2 {
+    color: #555;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.contact-info {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    color: #007BFF;
+}
+
+footer {
+    background: linear-gradient(50deg, #333,#555,#515146);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
+
+#contact-info-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: black;
+   
+}
+
+
+
+#sectAbout{
+    border-radius: 15px;
+    background-color: white;
+    color-scheme: dark;
+    padding: 8px 8px;
+    border: solid #ff0000 1px;
+}
+#sectAbout:hover{
+    border: solid #00ff73 5px;
+}
+
+.sectGrafikRabot{
+    border-radius: 15px;
+    background-color: white;
+    color-scheme: dark;
+    padding: 8px 8px;
+    border: solid #ff0000 1px;
+    margin-top: -80px;
+}
+.sectGrafikRabot:hover{
+    border: solid #00ff5e 3px;
+    
+}
+
+.sectAddr{
+    border-radius: 15px;
+    background-color: white;
+    color-scheme: dark;
+    padding: 8px 8px;
+    border: solid #ff0000 1px;
+    margin-top: -80px;
+}
+.sectAddr:hover{
+    border: solid #00ff5e 3px;
+}
+
+
+.contact-info{
+    margin-top: 50px;
+}
